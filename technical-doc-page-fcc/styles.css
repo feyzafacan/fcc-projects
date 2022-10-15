@@ -1,0 +1,96 @@
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    border-right: solid;
+    border-color: grey;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+    font-weight: bold;
+    
+    margin-top:  15px;
+  }
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    font-size: 1em;
+ }  
+ code{
+    display: block;
+    background-color: rgb(170, 170, 170);
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+ }
+
+ nav header{
+    margin-top: 4px;
+    
+    text-align: center;
+ }
+ nav ul li{
+    text-align: left;
+    list-style-type: none;
+    line-height: 2;
+    border-top: 1px solid;
+    padding-left: 35px;
+ }
+ ul{
+    padding-inline-start: 0px;
+ }
+ header{
+    font-size: 1.8em;
+}
+p {
+    font-size: 0.96em;
+}
+
+ @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  
+    #navbar {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 370px;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: 1px;
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
