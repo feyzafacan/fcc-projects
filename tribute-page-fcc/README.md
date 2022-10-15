@@ -1,4 +1,4 @@
-@@ -3,6 +3,6 @@ M. K. Ataturk's page built with  HTML and CSS
+M. K. Ataturk's page built with  HTML and CSS
 
 https://singular-pithivier-1b6745.netlify.app
 
